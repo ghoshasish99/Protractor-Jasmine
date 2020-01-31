@@ -1,0 +1,18 @@
+{
+    "url" : "http://screenplay-contacts.herokuapp.com/",
+    "create" : {
+        "name" : "Protractor1",
+        "email" : "Protractor@user.com",
+        "mobile" : "8989898989",
+        "workphone" : "20202020202"
+    },
+    "update" : {
+        "name" : "Protractor2",
+        "email" : "Protractor@user.com",
+        "mobile" : "8989898989",
+        "workphone" : "20202020202"
+    },
+    "delete" :{
+        "name" : "Protractor2"
+    }
+}
