@@ -16,7 +16,7 @@ class pageobject {
     get go_btn(){
         return element(by.id("gobutton"));
     }
-    get result(){
+    result(){
         return element(by.css("h2[class='ng-binding']"));
     }
     
