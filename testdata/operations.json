@@ -1,0 +1,21 @@
+{
+    "url" : "https://juliemr.github.io/protractor-demo/",
+    "add" : {
+        "name" : "ADDITION",
+        "op1" : "10",
+        "op2" : "29",
+        "result" : "39"
+    },
+    "sub" : {
+        "name" : "SUBTRACTION",
+        "op1" : "29",
+        "op2" : "10",
+        "result" : "19"
+    },
+    "mult" : {
+        "name" : "MULTIPLICATION",
+        "op1" : "10",
+        "op2" : "29",
+        "result" : "290"
+    }
+}
