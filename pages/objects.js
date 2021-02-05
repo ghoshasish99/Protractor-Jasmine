@@ -1,5 +1,6 @@
 var browser = require('protractor').browser;
 var element = require ('protractor').element;
+var expect = require('chai').expect;
 
 class pageobject {
     get operand1(){
@@ -16,9 +17,6 @@ class pageobject {
     get go_btn(){
         return element(by.id("gobutton"));
     }
-    result(){
-        return element(by.css("h2[class='ng-binding']"));
-    }
     
     openURL(URL) {
         browser.get(URL);
@@ -28,6 +26,11 @@ class pageobject {
        this.performOperation(op)
        this.operand2.sendKeys(val2);
        this.go_btn.click();
+    }
+    
+    assertResult(output){
+        browser.sleep(5000);
+        expect (element(by.cssContainingText('.ng-binding',output))).to.exist;
     }
     
 }

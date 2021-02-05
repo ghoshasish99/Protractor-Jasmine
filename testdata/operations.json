@@ -3,7 +3,7 @@
     "add" : {
         "name" : "ADDITION",
         "op1" : "10",
-        "op2" : "29",
+        "op2" : "39",
         "result" : "39"
     },
     "sub" : {
