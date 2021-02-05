@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ghoshasish99/Protractor#readme",
   "devDependencies": {
     "chai": "^4.3.0",
-    "protractor": "^7.0.0"
+    "protractor": "^7.0.0",
+    "webdriver-manager": "^12.1.8"
   }
 }
